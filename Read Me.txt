@@ -1,0 +1,38 @@
+Hello there, 
+Welcome to my portfolio. 
+
+I am excited to walk you through my very first website I've made from scratch.
+Even though this project is very simple to understand, I will add a few notes to this
+document in order for you to understand it entirely.
+
+The main page is named app.html.From this page, the links to the other page will be found in 
+the navigation bar(located on the far right).
+
+Navigation Links Include:
+Course Work - course.html - Course work that I have done within my Bachelor Of Arts in Corporate Communications degree.
+Work Experience - work.html - Work experience  that I have done.
+Certifications - cert.html - Certifications that I have.
+About - about.html - This includes my skills and a bit more about who I am.
+
+Direct links to My: 
+Reference page
+Email
+LinkedIn 
+Ghithub
+
+These Links have been included on the bottom right of the main app.html page.
+
+I have made use of a few online platforms for this project which include:
+Bootstrap 4 
+Bulma 
+Google Fonts 
+Font Awesome 
+
+The app.css is my own stylesheet which is linked to each of the pages.
+
+The app.js is the javascript that shows the basic javascript that I have learnt
+over a short space of time. For this project, I simply made use of javaScript to 
+change the colour of  the text on the main app.html page when the 'click me' button is 
+pressed.
+
+Thank you and Enjoy! 

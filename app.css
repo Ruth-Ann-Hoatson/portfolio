@@ -1,0 +1,393 @@
+body{
+    height:100%;
+    background-size: cover;
+  
+}
+
+.main_background{background-color:rgb(207, 174, 174);}
+
+ul{
+    list-style-type: none;
+}
+
+h1{
+    display:block;
+    width: 30rem;
+}
+
+/* Navigation: */
+nav{
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px;  
+}
+
+@media all and  (max-width:800px){
+    nav {
+    display:flex;
+    flex-direction: column-reverse;
+    justify-content: start;
+
+    }
+}
+
+
+/* My about section: */
+
+ .about{
+    display:block;
+    width: 30rem;
+    height:100%;
+    text-align: justify;
+    padding:3rem;
+    
+}
+
+@media all and  (max-width:415px){
+    .about {
+    padding:1rem;
+    font-size:14px;
+
+    }
+}
+
+
+.welcome{
+    margin-left:28rem;
+}
+
+@media all and (max-width:600px){
+    .welcome{
+        margin-left:3rem;   
+    }
+}
+
+@media all and (max-width:800px){
+    .welcome{
+        margin-left:2rem;  
+    }
+}
+
+@media all and (max-width:415px){
+    .welcome{
+        margin-left:1rem; 
+    }
+}
+
+
+/* working experience page cards */
+.card{
+    display: block;
+    width:15rem;
+    margin-left:5rem;
+    margin-top:5rem;
+    padding:2rem;
+    
+}
+
+@media all and  (max-width:1000px){
+.work{
+    display:flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;   
+}
+
+.card{
+    width:20rem;
+    margin-left:20rem;
+}
+}
+
+
+
+
+
+@media all and (max-width:600px){
+    .card{
+        margin-left:5rem;   
+    }
+}
+
+@media all and (max-width:415px){
+    .card{
+        margin:auto;
+        width:80%;   
+    }
+}
+
+
+
+/* certificate page cards */
+
+.cert-body {
+    display: flex; 
+    flex-direction: column-reverse;
+    margin:35rem;
+}
+
+.card-2{
+
+    display: block;
+    width:30rem;
+    margin-left:25rem;
+    margin-top:5rem;
+    padding:2rem;
+
+}
+
+@media all and (max-width:800px){
+    .card-2{
+        width: 25rem;
+        margin-left:15rem;
+        padding:1rem;
+    }
+}
+
+@media all and (max-width:600px){
+    .card-2{
+        margin-left:3rem;   
+    }
+}
+
+@media all and (max-width:530px){
+    .card-2{
+        margin-left:2rem;   
+    }
+}
+
+@media all and (max-width:415px){
+    .card-2{
+        margin-left:0.5rem; 
+        padding:2rem;
+     
+    }
+}
+/* Home/main page */
+.profile{
+    color: rgb(0,0, 0);
+    position:relative;
+    display:grid;
+    width: auto;
+    
+}
+
+.profile-1 , .profile-2{ 
+    margin-left:5rem;
+    font-size:15px;
+    position:absolute;
+    top:2rem;
+   
+    
+}
+
+@media all and (max-width:800px){
+
+    .col-md-6{
+        display: grid;
+        align-items: center;
+        grid-template-rows: repeat(2, 300px);    
+  }
+}
+
+@media all and (max-width:530px){
+    .col-md-6{
+        display: grid;
+        align-items: center;
+        grid-template-rows: repeat(2, 300px);
+        margin-bottom:0rem !important;     
+  }
+}
+
+@media all and (max-width:425px){
+    .profile{
+        margin-left:0rem;
+        width:100%;
+        
+        
+        
+    }
+    
+    .col-md-6{
+        display: grid;
+        align-items: center;
+        grid-template-rows: repeat(2, 250px);
+        height:300px;
+          
+  }
+}
+
+
+
+.has-text-primary{
+    font-size: x-large;
+    font-weight: 600;
+}
+
+@media all and  (max-width:415px){
+    .has-text-primary {
+    font-weight:300;
+    font-size: medium;
+
+    }
+}
+
+
+.link{
+    display: flex;
+    justify-content:flex-end;
+    padding-top:25rem; 
+    align-content: flex-end;   
+}
+
+@media all and (max-width:800px){
+    .link{
+
+        justify-content: center;
+        align-content: center;
+    }
+}
+
+
+@media all and (max-width:425px){
+    .link{
+        /* display:flex; */
+        justify-content: start;
+        align-content: flex-start;
+        padding-top:2rem;
+        
+    }
+}
+
+
+
+
+@media all and (max-width:780px){
+    .photo{
+
+
+    display: inline-block;
+    position: relative;
+    right:-4.5rem;
+    width: 27rem;
+    height:30rem;
+    margin: 0 0 0 10rem;
+    overflow: hidden;
+    border-radius: 50%;
+   
+    }
+}
+
+
+
+
+
+@media all and (max-width:600px){
+    .photo{
+        left:-5rem;
+        width: 27rem;
+        height:30rem;
+        margin: 0 0 0 10rem; 
+        
+        
+    }
+}
+
+@media all and (max-width:415px){
+    .photo{
+        right:3rem;
+        width: 20rem;
+        height:25rem;
+        margin: 0 0 0 5rem; 
+        
+        
+    }
+}
+
+
+
+
+
+
+
+#btn{
+align-items: center;
+position:relative;
+top: 1rem;
+left:10rem;
+
+}
+
+@media all and (max-width:800px){
+    #btn{
+        left:1rem;
+        
+    }
+}
+@media all and (max-width:415px){
+    #btn{
+        left:0rem;
+        
+    }
+}
+
+
+/* Coursework styles */
+
+.copyright{
+display:flex;
+justify-content: center;
+font-size:1rem;
+}
+
+
+@media all and (max-width:425px){
+    .copyright{
+        display:flex;
+        width:100%;
+        height:6rem;
+        background-color: beige;
+        justify-content: start;
+        padding:2rem;
+        
+    }
+}
+
+.course{
+width:40rem;
+
+}
+
+@media all and (max-width:600px){
+    .course{
+       width:80%;
+        
+    }
+}
+
+@media all and (max-width:415px){
+    .course{
+       width:80%;
+        
+    }
+}
+
+
+.course_header{
+    padding-top:2rem;
+    font-size:1.7rem;
+    font-weight:600;
+}
+
+.course_header-2{
+    font-size:1.4rem;
+    font-weight:600;
+}
+
+.video{
+    padding-bottom:3rem;
+    
+}
+
+
+
+
